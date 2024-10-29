@@ -1,0 +1,15 @@
+<hmtl>
+    <h2>Async/await in JS</h2>
+    <p id="demo"></p>
+    <script>
+        async function add(a,b){
+           let response=await a+b;
+           display(response);
+        }
+        function display(some){
+    document.getElementById("demo").innerHTML=some;
+        }
+        add(5,20);
+    </script>
+
+</hmtl>
