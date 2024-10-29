@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h2>Objects IN JSON String</h2>
+        <p id="result"></p>
+        <script>
+      var      myobject={name:"rose",age: 21,grade: 13}
+      var myJSON=JSON. stringify(myobject)
+      var newobject= JSON.parse(myJSON)
+      document.getElementById("result").innerHTML=newobject.name
+        </script>
+    </body>
+</html>
